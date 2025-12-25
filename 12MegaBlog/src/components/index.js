@@ -1,7 +1,13 @@
 import Header from "./header/Header";
 import Footer from "./Footer/Footer";
+import Container from "./container/Container";
+import Logo from "./console.logo"
+import LogoutBtn from "./Header/LogoutBtn";
 
 export {
     Header,
-    Footer
+    Footer,
+    Container,
+    Logo,
+    LogoutBtn
 }
