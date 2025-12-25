@@ -22,7 +22,7 @@ function Signup() {
                     dispatch(login(userData));
                     navigate("/")
                 }
-            }
+            }  
         } catch (error) {
             setError(error.message)
         }
